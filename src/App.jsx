@@ -1,3 +1,4 @@
+import SearchInput from "./components/SearchInput";
 import UsersList from "./modules/UsersList";
 
 function App() {
@@ -5,7 +6,8 @@ function App() {
     <div>
       {/* <h2>React</h2> */}
       {/* <Block /> */}
-      <UsersList />
+      {/* <UsersList /> */}
+      <SearchInput />
     </div>
   );
 }
